@@ -141,13 +141,8 @@ const MichaelPortfolio = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="relative"
           >
-            <div className="aspect-square rounded-3xl overflow-hidden bg-slate-200 shadow-2xl relative z-10">
-              <img 
-                src="https://picsum.photos/seed/michael/800/800" 
-                alt="Michael Don Bosco"
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
-                referrerPolicy="no-referrer"
-              />
+            <div className="aspect-square rounded-3xl bg-white border border-slate-100 shadow-2xl relative z-10 flex items-center justify-center group">
+              <User className="w-48 h-48 text-slate-200 group-hover:text-emerald-500 transition-colors duration-500" strokeWidth={1} />
             </div>
             <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-emerald-100 rounded-full -z-0 blur-3xl opacity-60"></div>
             <div className="absolute -top-6 -left-6 w-32 h-32 bg-blue-100 rounded-full -z-0 blur-2xl opacity-60"></div>
